@@ -50,6 +50,10 @@ html{
     color: #fff !important;
     border-radius: 33px;
 }
+.green_btn:hover{
+  color: #21B573;
+  background: #fff;
+}
 .intro-text .btn{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
