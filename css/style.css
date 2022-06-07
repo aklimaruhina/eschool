@@ -50,8 +50,8 @@ html{
     color: #fff !important;
     border-radius: 33px;
 }
-.green_btn:hover{
-  color: #21B573;
+.btn.green_btn:hover{
+  color: #21B573 !important;
   background: #fff;
 }
 .intro-text .btn{
