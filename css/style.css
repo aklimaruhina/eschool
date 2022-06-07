@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+body {
+  scroll-behavior: smooth;
+}
+ul{margin-left: 0;padding-left: 0}
+ul li{list-style: none;}
+
+
+a{text-decoration: none;}
+img{max-width: 100%;}
+html{
+    /*font-size: 62.5%;*/
+    overflow-x: hidden;
+}
+.navbar.bg-blue, header{
+    background: #F0FFF0;
+}
+.navbar .navbar-nav .nav-item .nav-link{color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+    padding: 8px 20px;
+}
+.book_btn{
+    
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 24px;
+    background: #fff;
+}
+.green_btn{
+    background: #21B573;
+    color: #fff !important;
+    border-radius: 15px;
+}
+.intro-text .btn{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+  background: #21B573;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 33px;
+}
+.text-red{
+    color: #FD511A;
+}
+.title{font-weight: 700;font-size: 48px;line-height: 70px;color: #000}
+.text-green{color: #21B573}
+.course-list{margin-bottom: 50px;margin-top: 30px;}
+.icon-container {
+  background: #F8FFFB;
+border-radius: 10px;
+}
+.icon-container img{
+  width: 68px;
+  height: 76px;
+  margin-bottom: 20px;
+}
+.icon-container h4{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #413960;margin-bottom: 0
+
+}
+.icon-container:hover{
+  background: #fff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition:all 0.3s ease;
+  cursor: pointer;
+}
+.icon-container p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #585859;
+
+}
+.card-footer p{line-height: 16px;}
+.card-footer{
+  color: #585859;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.courses .card .card-body h4{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #413960;
+}
+.courses .card .card-body p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #585859;
+}
+footer{
+    background: #282531;
+    padding:  5rem 0;  
+    color: #fff; 
+}
+.footer-para{font-size: 16px;}
+.footer-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+footer ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+.copy{
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
