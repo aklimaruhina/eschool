@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
     <style type="text/css">
 
 
@@ -24,7 +25,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-blue">
           <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="img-fluid" width="200px;"></a>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="img-fluid logo" width="200px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,7 +33,7 @@
               <ul class="navbar-nav mb-2 mb-lg-0">
                 
                 <li class="nav-item">
-                  <a class="nav-link book_btn" href="#">Books</a>
+                  <button class="btn book_btn" href="#">Books</button>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Courses</a>
@@ -43,56 +44,102 @@
                 <li class="nav-item">
                   <a class="nav-link">Blog</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link green_btn">Sign In</a>
-                </li>
               </ul>
+              <button type="button" class="btn green_btn">Sign in</button>
+
             </div>
           </div>
         </nav>
-        <div class="main-body my-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="intro-text">
-                            <p class="text-red mb-0"> Are you ready to Learn?</p>
-                            <h1 class="title">Learn With fun <br> on <span class="text-green">any schedule </span></h1>
-                            <p class="fw-bold" style="color: #6C6B6B;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-                            <a href="#btn" class="btn green_btn">Get Started</a>
-                        </div>  
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-1 order-2">
+                    <div class="intro-text">
+                        <p class="text-red m-0"> Are you ready to Learn?</p>
+                        <h1 class="title">Learn With fun  on <span class="text-green">any schedule </span></h1>
+                        <p class="fw-bold para m-0" style="color: #6C6B6B;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                        <a href="#btn" class="btn green_btn">Get Started</a>
                     </div>
-                    <div class="col-lg-6">
+                </div>
+                <div class="col-lg-6 offset-lg-1 order-lg-2 order-1">
+                    <div class="b-img">
                         <img src="images/header.png" class="img-fluid" alt="intro image">
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
+    <section class="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="s_feature">
+              <div class="s_img">
+                <img src="images/icon-1.png" class="img-fluid" alt="book icon">
+              </div>
+              <h2>1500+ Topic</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="s_feature">
+              <div class="s_img">
+                <img src="images/icon-2.png" class="img-fluid" alt="book icon">
+
+              </div>
+              <h2>1800+ Students</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="s_feature">
+              <div class="s_img">
+                <img src="images/icon-3.png" class="img-fluid" alt="book icon">
+
+              </div>
+              <h2>9K+ Test Token</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="s_feature">
+              <div class="s_img">
+                <img src="images/icon-4.png" alt="book icon" class="img-fluid">
+
+              </div>
+              <h2>2000+ Student</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="course-list">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="text-center py-3 icon-container">
                         <img src="images/icon-1.png" alt="book icon">
                         <h4 class="icon-title">1500+ Topic</h4>
                         <p>Learn Anythings</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="text-center py-3 icon-container">
                         <img src="images/icon-2.png" alt="book icon">
                         <h4 class="icon-title">1800+ Students</h4>
                         <p>Learn Anythings</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="text-center py-3 icon-container active">
                         <img src="images/icon-3.png" alt="book icon">
                         <h4 class="icon-title">9K+ Test Token</h4>
                         <p>Learn Anythings</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="text-center py-3 icon-container">
                         <img src="images/icon-4.png" alt="book icon">
                         <h4 class="icon-title">2000+ Student</h4>
@@ -105,7 +152,7 @@
     <section class="courses py-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card shadow p-3 mb-5 bg-body rounded">
                       <img src="images/course-1.png" class="card-img-top" alt="Course one">
                       <div class="card-body ps-0">
@@ -132,7 +179,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card shadow p-3 mb-5 bg-body rounded">
                       <img src="images/course-2.png" class="card-img-top" alt="Course one">
                       <div class="card-body ps-0">
@@ -159,7 +206,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card shadow p-3 mb-5 bg-body rounded">
                       <img src="images/course-3.png" class="card-img-top" alt="Course one">
                       <div class="card-body ps-0">
@@ -194,12 +241,16 @@
             <div class="row">
                 <h1 class="title text-center py-2">Testimonial</h1>
                 <div class="col-lg-9 m-auto">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
+                    <div class="row align-items-center">
+                      <div class="col-lg-2">
+                        <div class="t_img">
                         <img src="images/user.png" class="img-fluid me-2" alt="user One" width="120px">
+                        </div>
                       </div>
-                      <div class="flex-grow-1 ms-3">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                      <div class="col-lg-10">
+                        <div class="t_content">
+                        There are many variations of passages of Lorem Ipsum available, b12t the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        </div>
                       </div>
                     </div>
                 </div>
@@ -209,10 +260,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-12 col-sm-6 col-12">
                     <p class="footer-para">Millions of people of all ages and from around the world are improving their lives with us</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <h4 class="footer-title">Course</h4>
                     <ul>
                         <li><a href="#">Graphic Design</a></li>
@@ -222,7 +273,7 @@
                         <li><a href="#">Engineering</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <h4 class="footer-title">Terms</h4>
                     <ul>
                         <li><a href="#">Graphic Design</a></li>
@@ -232,7 +283,7 @@
                         <li><a href="#">Engineering</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <h4 class="footer-title">Useful Link</h4>
                     <ul>
                         <li><a href="#">Graphic Design</a></li>
