@@ -64,9 +64,11 @@ header{
 .btn.green_btn:hover{
   color: #21B573 !important;
   background: #fff;
+  font-weight: bold;
 }
 .banner{
-   background: #F0FFF0;
+   /*background: #F0FFF0;*/
+   background: #fff;
    padding: 35px 0 65px;
 }
 .intro-text .btn{
@@ -154,6 +156,7 @@ a.buy_btn:hover{
     color: #21B573 !important;
   background: #fff;
   border: 1px solid #21B573;
+  font-weight: bold;
 }
 
 .c_footer{overflow: hidden;}
@@ -221,7 +224,8 @@ margin-bottom: 20px;
 }
 footer{
     background: #282531;
-    padding:  5rem 0;  
+    padding:  5rem 0;
+    padding-bottom: 3rem;  
     color: #fff; 
 }
 .footer-para{font-size: 16px;}
@@ -238,6 +242,7 @@ footer ul li a{
     color: #fff;
 }
 .copy{
+  margin-top: 25px;
     color: #CDCDCD;
     font-size: 16px;
     font-weight: 400;
