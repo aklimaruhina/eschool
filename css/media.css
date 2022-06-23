@@ -3,12 +3,42 @@
 	header{padding: 0}
 	.logo{width: 180px;}
 	.navbar-nav .nav-item .nav-link{ margin-bottom: 10px;padding: 0 10px; }
-	.intro-text .title{padding: 10px 0 0;margin-top: 10px 0 10px;font-size: 25px;line-height: 35px;padding-right: 0}
+	.intro-text .title{padding: 10px 0 0;margin: 0px 0 10px;font-size: 25px;line-height: 35px;padding-right: 0}
 	.intro-text{margin-top:20px;text-align: center;}
-	.para{line-height: 24px;padding: 0}
+	.intro-text p.para{line-height: 24px;padding: 0}
+	.intro-text .btn{
+		display: block;
+	    font-weight: 900;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    font-size: 18px;
+	}
+	.banner{padding-bottom: 40px;}
+	.s_feature{margin-top: 20px;padding: 35px 0 30px;}
+	.c_h1{font-size: 32px;line-height: 44px;}
+	.c_item{margin-bottom: 30px;}
+	.c_item a.buy_btn{
+		padding: 12px 28px;
+	margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;}
+    .date ul li span, .seat ul li span{font-size: 14px;}
 	.b-img{padding: 0}
 	.feature {padding-bottom: 60px;}
-
+	.testimonial .title{font-size: 38px;padding-right: 0;}
+	.t_img{
+		text-align: center;
+    	margin-bottom: 20px;
+	}
+	.t_content{
+		padding: 0 30px;
+    	letter-spacing: .8px;
+    	font-size: 14px;
+	}
+	footer{padding:3rem 0;}
+	.footer-para{font-size: 14px;}
+	footer ul li a{font-size: 14px;line-height: 26px;}
+	.copy{font-size: 14px;}
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -19,8 +49,11 @@
 		margin-top: 30px;
 		text-align: center;
 	}
-	.title{font-size: 30px;padding: 10px 0 60px;
-		margin: 10px 0 10px;line-height: 35px;padding-right: 0}
+	.title{font-size: 43px;
+    padding: 10px 0 10px;
+    margin: 10px 0 10px;
+    line-height: 48px;}
+    .intro-text .btn{font-size: 18px;line-height: 23px;font-weight: 600}
 	.b-img{
 		padding: 0 100px;
 	}
@@ -31,7 +64,10 @@
 	{
 		padding: 0 50x;line-height: 24px;
 	}
+	.c_item {margin-bottom: 30px;padding: 15px 20px 10px}
+	.c_item a.buy_btn{margin: 0px 0 25px;line-height: 22px;font-size: 18px;}
 	.feature {padding-bottom: 60px;}
+	.t_img{margin-bottom: 18px;}
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.99px) {
